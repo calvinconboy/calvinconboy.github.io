@@ -1,0 +1,81 @@
+/* Import Raleway Font. */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Use Raleway font. */
+body,
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Black background with white text. */
+body {
+    background: black;
+    color: white;
+}
+
+/* Theme colors. */
+:root {
+    --highlight-blue: #5ab8ff;
+    /* Dark theme. */
+    color-scheme: dark;
+}
+
+/* Global styles. */
+section {
+    padding: 6rem 16%;
+}
+
+p,
+a {
+    font-size: 1.1rem;
+    line-height: normal;
+}
+
+.hero {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-body {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-body-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.hero-body-right {
+    width: 50%;
+}
+
+.hero-image {
+    max-width: 85%;
+    max-height: 75vh;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.bold-title-letter-spacing {
+    font-weight: 700;
+    letter-spacing: -0.2rem;
+    line-height: 90%;
+}
